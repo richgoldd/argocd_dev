@@ -4,6 +4,7 @@ metadata:
   name: myapp-service
   namespace: dev
 spec:
+  type: NodePort
   selector:
     app: myapp
   ports:
